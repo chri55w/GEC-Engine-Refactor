@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Visualisation">
+      <UniqueIdentifier>{1a9304b8-5c6d-44e5-a072-ab8a0b071a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{924801b5-1e47-4081-a3a4-1e6a3b6055cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{19d5d8ed-3046-40e8-87df-f5b2188da1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{1288b10d-643d-4a3b-8a3c-4a8450eda98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Headers">
+      <UniqueIdentifier>{463f553d-ca91-40d4-b903-03ecd964c5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Source Files">
+      <UniqueIdentifier>{e25d89d6-3861-4e2b-809c-ce50753d77c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Headers">
+      <UniqueIdentifier>{b2f0763d-24d8-4560-838d-539db5f10acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Source Files">
+      <UniqueIdentifier>{7cf9f95b-1c61-4169-a513-82e72ac5af19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualisation\Headers">
+      <UniqueIdentifier>{96f82f09-5130-427c-8e60-31ffb9c87562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualisation\Source Files">
+      <UniqueIdentifier>{2426a131-44b9-4483-bf24-7312f5745534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Headers">
+      <UniqueIdentifier>{940b0670-b60c-421a-b0d0-2a2b20d0610e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Source Files">
+      <UniqueIdentifier>{02ddfb73-ff03-47aa-9955-38d0289935a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Machine">
+      <UniqueIdentifier>{8d9e90f4-97ce-47e7-a661-73447afc4c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Machine\Headers">
+      <UniqueIdentifier>{5edaf80c-6e2e-41a1-a01d-34bdd93aa5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Machine\Source Files">
+      <UniqueIdentifier>{7bb52147-9b92-4898-9f8b-cf14e8fca07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml Processing">
+      <UniqueIdentifier>{58b69d37-ec88-4546-8c54-857eb3a66ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml Processing\Headers">
+      <UniqueIdentifier>{99dc061b-8e2a-4c8a-b45b-61e083d949eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml Processing\Source Files">
+      <UniqueIdentifier>{704d8df2-2f6f-4454-83ef-6f636738d577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{c01f9679-5c86-4ca5-a205-d10af17103e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\Headers">
+      <UniqueIdentifier>{bdfecaf2-7a59-4c5c-a5a7-00b2b631b9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\Source Files">
+      <UniqueIdentifier>{380d4cd3-3cb5-4abf-8d76-b93038058907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{5b3edb62-89d5-4c0a-a8f3-62efb20933ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Headers">
+      <UniqueIdentifier>{27e05f6d-1231-459a-a8fe-9f3b973aa720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Source Files">
+      <UniqueIdentifier>{420970df-85e1-41de-90c6-65c0af530175}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>Simulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Simulation.cpp">
+      <Filter>Simulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rectangle.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite.cpp">
+      <Filter>Visualisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Visualisation.cpp">
+      <Filter>Visualisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateHandler.cpp">
+      <Filter>State Machine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>State Machine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuState.cpp">
+      <Filter>State Machine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config.cpp">
+      <Filter>Xml Processing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pugixml.cpp">
+      <Filter>Xml Processing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>World\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World.cpp">
+      <Filter>World\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character.cpp">
+      <Filter>World\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundManager.cpp">
+      <Filter>Audio\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound.cpp">
+      <Filter>Audio\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Element.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIContainer.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parsedata.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Level.cpp">
+      <Filter>World\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>World\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Background.cpp">
+      <Filter>Simulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderQueue.cpp">
+      <Filter>Utilities\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Animation.h">
+      <Filter>Simulation\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Simulation.h">
+      <Filter>Simulation\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rectangle.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite.h">
+      <Filter>Visualisation\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Visualisation.h">
+      <Filter>Visualisation\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateHandler.h">
+      <Filter>State Machine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\State.h">
+      <Filter>State Machine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameState.h">
+      <Filter>State Machine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MenuState.h">
+      <Filter>State Machine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.h">
+      <Filter>Xml Processing\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pugixml.hpp">
+      <Filter>Xml Processing\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pugiconfig.hpp">
+      <Filter>Xml Processing\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entity.h">
+      <Filter>World\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World.h">
+      <Filter>World\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character.h">
+      <Filter>World\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enum.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundManager.h">
+      <Filter>Audio\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound.h">
+      <Filter>Audio\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI.h">
+      <Filter>GUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Element.h">
+      <Filter>GUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUIContainer.h">
+      <Filter>GUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParseData.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level.h">
+      <Filter>World\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>World\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Background.h">
+      <Filter>Simulation\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderQueue.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
